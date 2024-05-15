@@ -5,7 +5,7 @@
     android:layout_height="wrap_content"
     android:layout_marginHorizontal="12dp"
     android:layout_marginTop="4dp"
-    app:cardBackgroundColor="?attr/colorSurfaceContainerLowest"
+    style="@style/materialCardViewBackground"
     app:cardCornerRadius="14dp"
     app:cardElevation="0dp"
     app:cardUseCompatPadding="true"

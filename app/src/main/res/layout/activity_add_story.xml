@@ -26,7 +26,8 @@
             app:layout_constraintTop_toTopOf="parent"
             app:menu="@menu/add_story_menu"
             app:navigationIcon="@drawable/ic_arrow_back"
-            app:title="Kembali" />
+            app:title="Kembali"
+            app:titleTextColor="?android:textColor" />
     </com.google.android.material.appbar.AppBarLayout>
 
     <com.google.android.material.progressindicator.LinearProgressIndicator

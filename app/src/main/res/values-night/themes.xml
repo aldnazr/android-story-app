@@ -17,7 +17,6 @@
         <item name="colorErrorContainer">@color/md_theme_dark_errorContainer</item>
         <item name="colorOnError">@color/md_theme_dark_onError</item>
         <item name="colorOnErrorContainer">@color/md_theme_dark_onErrorContainer</item>
-        <item name="android:colorBackground">@color/md_theme_dark_background</item>
         <item name="colorOnBackground">@color/md_theme_dark_onBackground</item>
         <item name="colorSurface">@color/md_theme_dark_surface</item>
         <item name="colorOnSurface">@color/md_theme_dark_onSurface</item>
@@ -28,13 +27,15 @@
         <item name="colorSurfaceInverse">@color/md_theme_dark_inverseSurface</item>
         <item name="colorPrimaryInverse">@color/md_theme_dark_inversePrimary</item>
         <!-- Status bar color. -->
-        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
         <item name="android:windowLightStatusBar">?attr/isLightTheme</item>
         <!-- Customize your theme here. -->
+        <item name="android:colorBackground">@color/md_theme_dark_background</item>
         <item name="popupMenuBackground">@drawable/custom_popup_background</item>
+        <item name="colorControlNormal">@color/md_theme_light_inverseOnSurface</item>
+        <item name="android:textColor">@color/md_theme_light_inverseOnSurface</item>
     </style>
 
     <style name="toolbarBackground">
-        <item name="android:background">@color/md_theme_dark_primaryContainer</item>
+        <item name="android:background">@color/md_theme_dark_surfaceVariant</item>
     </style>
 </resources>
