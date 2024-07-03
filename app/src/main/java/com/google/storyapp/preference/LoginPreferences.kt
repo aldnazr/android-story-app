@@ -15,10 +15,6 @@ class LoginPreferences(context: Context) {
         editor.apply()
     }
 
-    fun getString(key: String): String? {
-        return preferences.getString(key, null)
-    }
-
     fun getUser(): AccountLogin {
         val name = preferences.getString(NAME, null)
         val userId = preferences.getString(USER_ID, null)
@@ -37,5 +33,4 @@ class LoginPreferences(context: Context) {
         const val USER_ID = "userId"
         const val TOKEN = "token"
     }
-
 }

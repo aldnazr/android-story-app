@@ -64,7 +64,7 @@ dependencies {
     testImplementation (libs.mockito.inline)
     testImplementation(libs.androidx.core.testing)
     testImplementation (libs.kotlinx.coroutines.test)
-    testImplementation ("org.robolectric:robolectric:4.9")
+    testImplementation (libs.robolectric)
 
     implementation(libs.datastore.preferences)
     implementation(libs.lifecycle.viewmodel.ktx)
