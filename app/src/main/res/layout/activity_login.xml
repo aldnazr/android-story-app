@@ -33,18 +33,28 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
+            <ImageView
+                android:id="@+id/icon"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/app_icon"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
             <TextView
                 android:id="@+id/titleTextView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Login"
+                android:layout_marginTop="14dp"
+                android:text="Selamat datang"
                 android:textAlignment="center"
                 android:textSize="32sp"
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/icon"
                 app:layout_constraintVertical_bias="0" />
 
             <TextView
@@ -108,9 +118,9 @@
                 android:id="@+id/loginButton"
                 android:layout_width="match_parent"
                 android:layout_height="58dp"
-                android:background="@drawable/rounded_button"
                 android:layout_marginHorizontal="30dp"
                 android:layout_marginTop="20dp"
+                android:background="@drawable/rounded_button"
                 android:text="Login"
                 android:textSize="18sp"
                 app:layout_constraintEnd_toEndOf="parent"
